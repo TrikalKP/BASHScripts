@@ -2,6 +2,8 @@
 
 Some BASH scripts for those big commands
 
-|Name|What it does|Requirements|
-|:---:|:---:|:---:|
-|`screenshot.sh`| a utility that takes screenshots and saves it to the `~/Pictures/scrots` directory in Pictures| make the `~/Pictures/scrots` directory using the command`mkdir ~/Pictures/scrots`|
+1. `screenshot.sh`
+
+    **what it does**: takes a screenshot `datetime.png` and saves it into the `~/Pictures/scrots/` directory
+
+    **what it needs**: you need to install `scrot` and make a directory with `mkdir ~/Pictures/scrots/` 
