@@ -1,7 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
-# Takes a screenshot
+maim -s -u -c 0,0.9,1.5,0.2 -l ~/Pictures/screenshots/$(date +%Y%m%d%H%M%S).png
 
-scrot '%Y-%m-%d_%H:%M:%S.png' -e 'mv $f ~/Pictures/scrots/'
-
-notify-send "Screenshot saved"
+notify-send "📸 Screenshot Taken"
