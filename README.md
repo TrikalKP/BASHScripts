@@ -14,6 +14,10 @@ also run
       
 Found this on HexDSL's YouTube channel. You can know more about him [here](http://www.hexdsl.co.uk/)
      
+     
+----
+
+
 ## 2. lock.sh 
 blurs your screen, centers an image and sets a lock
 ### dependencies
@@ -25,6 +29,12 @@ also run
 
 `$ mkdir ~/Pictures/.lock`
 
+
+
 and convert the image you want to center using the following command
+
 `$ convert PATH/TO/IMAGE -resize x189 ~/Pictures/.lock/emblemface.png`
+
 works best with a circle png image
+
+Found this on Luke Smith's YouTube channel. You can know more about him [here](www.lukesmith.xyz)
